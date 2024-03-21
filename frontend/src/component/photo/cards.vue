@@ -82,7 +82,7 @@
           <div :key="photo.Hash"
                 :title="photo.Title"
                 class="card darken-1 clickable image"
-                :style="`background-image: url(${photo.thumbnailUrl('tile_500')})`"
+                :style="`background-image: url(${photo.thumbnailUrl('fit_720')})`"
                 @touchstart.passive="input.touchStart($event, index)"
                 @touchend.stop.prevent="onClick($event, index)"
                 @mousedown.stop.prevent="input.mouseDown($event, index)"
