@@ -221,3 +221,13 @@ body #photoprism .v-list__tile .v-icon {
 .orientation-8 {
     transform: rotate(270deg);
 }
+
+#photoprism .cards-view button {
+  user-select: all !important;
+  --webkit-user-select: all !important;
+}
+
+#photoprism .cards-view {
+  user-select: text !important;
+  --webkit-user-select: text !important;
+}
